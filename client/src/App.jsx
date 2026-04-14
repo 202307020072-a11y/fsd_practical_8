@@ -132,7 +132,7 @@ function App() {
       <section className="hero">
         <div className="hero-copy">
           <p className="label">FSD Project Dashboard</p>
-          <h1>Complete Full-Stack Project</h1>
+          <h1>FSD Practical 8</h1>
           <p>
             A React frontend connected to the Express, MongoDB, JWT
             authentication, product upload, and payment APIs.
