@@ -131,7 +131,7 @@ function App() {
     <div className="page">
       <section className="hero">
         <div className="hero-copy">
-          <p className="label">MERN Practical Submission</p>
+          <p className="label">FSD Project Dashboard</p>
           <h1>Complete Full-Stack Project</h1>
           <p>
             A React frontend connected to the Express, MongoDB, JWT
