@@ -1,11 +1,14 @@
 {
   "name": "new-folder-(2)",
   "version": "1.0.0",
-  "description": "MERN practical backend with auth, products, uploads, and mock payments",
+  "description": "Full MERN practical project with React client, auth, products, uploads, and mock payments",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
+    "server": "node --watch server.js",
+    "client": "npm run dev --prefix client",
+    "fullstack": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"No automated tests configured\""
   },
   "keywords": [],
@@ -21,5 +24,8 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.4.1",
     "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
